@@ -52,6 +52,3 @@ let estudantes: Estudante[] = [
 //     }
 // })
 
-// filter - selecionar elementos que atenda a uma condição - retorna uma lista nova
-let filtrarFilterEstudantesAtivas = estudantes.filter((estudantes, index, array) => estudantes.isActive == false)
-console.log(filtrarFilterEstudantesAtivas)
